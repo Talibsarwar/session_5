@@ -8,7 +8,7 @@ function App() {
   return (
    <CounterContext.Provider value={countState}>
     <div>
-         <Parent />
+         
     </div>
   </CounterContext.Provider>
   );
