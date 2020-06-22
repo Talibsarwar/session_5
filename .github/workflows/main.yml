@@ -37,7 +37,7 @@ jobs:
       run:  yarn run build
         
     - name: installing surge
-      run:  yarn global add surge
+      run:  yarn add surge
       
     - name: deploying surge app
       run:  yarn surge ./build http://bootcamp2020-session_5.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
