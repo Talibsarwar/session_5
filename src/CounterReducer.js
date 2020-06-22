@@ -1,4 +1,4 @@
-import React from 'react'
+import react from 'react'
 
 const counterReducer = (state, action) => {
     switch (action) {
