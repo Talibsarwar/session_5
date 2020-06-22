@@ -1,9 +1,11 @@
-import react from 'react'
+import React from 'react'
 
 const counterReducer = (state, action) => {
     switch (action) {
       case 'INCREMENT':
         return state + 1
+        default:
+          throw new Error()
     }
   }
   
